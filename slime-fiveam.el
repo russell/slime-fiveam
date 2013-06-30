@@ -1,6 +1,11 @@
 ;; SLIME FiveAM integration.
 ;; Copyright (C) 2013 Russell Sim <russell.sim@gmail.com>
 ;;
+;; Author   : Russell Sim <russell.sim@gmail.com>
+;; URL      : https://github.com/russell/slime-fiveam
+;; Version  : 0.1
+;; Keywords : lisp, testing, repl, slime
+;;
 ;; This file is part of GNU Emacs.
 ;;
 ;; GNU Emacs is free software: you can redistribute it and/or modify
