@@ -32,7 +32,7 @@
   (slime-eval '(fiveam:test-names)))
 
 (defun slime-choose-fiveam-test ()
-  (completing-read "Fiveam Test :"
+  (completing-read "FiveAM Test :"
                    (slime-bogus-completion-alist (slime-list-fiveam-tests))
                    nil nil nil 'slime-fiveam-history))
 
@@ -45,7 +45,7 @@
                    (let ((test (slime-choose-fiveam-test)))
                      (insert "(fiveam:" ,command-string " '" test ")")
                      (slime-repl-send-input t))))
-       (:one-liner "Run a Fiveam test."))))
+       (:one-liner "Run a FiveAM test."))))
 
 (deffiveam-repl-shortcut run!)
 (deffiveam-repl-shortcut debug!)
