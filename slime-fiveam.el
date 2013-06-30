@@ -38,7 +38,7 @@
 
 (defmacro deffiveam-repl-shortcut (command)
   (let ((command-string (symbol-name command)))
-    `(defslime-repl-shortcut ,(make-symbol (concat "slime-fiveam-" command-string))
+    `(defslime-repl-shortcut ,(intern (concat "slime-fiveam-" command-string))
        (,command-string)
        (:handler (lambda ()
                    (interactive)
