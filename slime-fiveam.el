@@ -23,7 +23,11 @@
 
 (eval-when-compile
   (require 'slime)
+  (require 'slime-repl)
   (require 'cl))
+
+(require 'slime)
+(require 'slime-repl)
 
 (defvar slime-fiveam-history nil
   "History list for fiveam tests.")
