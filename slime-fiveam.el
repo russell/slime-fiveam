@@ -15,6 +15,9 @@
 ;; License along with this program.  If not, see
 ;; <http://www.gnu.org/licenses/>.
 
+(eval-when-compile
+  (require 'slime)
+  (require 'cl))
 
 (defvar slime-fiveam-history nil
   "History list for fiveam tests.")
